@@ -12,6 +12,13 @@
 # Buyer bill must be only print as user
 # and store it in a file
 # Done by Abhiyan Shrestha
+# Keypoint:
+
+# General Sense:
+# how does application behave (flow)
+
+# Local Sense:
+# What Statement how do i use 
 
 def register():
     username = input("Enter username: ")
@@ -67,7 +74,7 @@ def purchase_product():
             try:
                 name, desc, price = line.strip().split(",")
             except ValueError:
-                print(f"Error: Invalid data format in products.txt: {line}")
+                print(f"Error: Invalid data format in product.txt: {line}")
                 continue  # Skip to the next line
 
             if name == product_name:
