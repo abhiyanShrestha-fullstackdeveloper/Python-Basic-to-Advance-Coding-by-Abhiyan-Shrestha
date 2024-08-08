@@ -2,7 +2,7 @@
 # Ask user to login or register or quit or logout
 # if register ask the user for username, password,usertype and write their user data in a file
 # if login ask the user for username and password and check on the userdata stored file
-# if login successful: give seller user two choices: 1. add product and buyer only 2. view product
+# if login successful: give seller user two choices: 1. add product 2. view product and buyer only 2. view product
 # Add product : ask the user for product name, description and price and write the data in file
 # view Product: print the data from the text file that is there
 # ask buyer which product do you want to purchase
