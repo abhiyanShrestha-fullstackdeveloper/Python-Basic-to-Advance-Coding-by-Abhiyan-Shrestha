@@ -7,6 +7,7 @@
 # if student wants to view assignment then show user its only assignment that he have uploaded
 # if student want to upload assignment then ask the assignment name, task completed
 # if teacher wants to add assignment then ask assignment name, tasks Requirement
+# Done by Abhiyan Shrestha
 
 def register():
 
@@ -34,7 +35,7 @@ def login():
     
 def upload_assignment():
 
-    assignment_name = input('Enter Name: ')
+    assignment_name = input('Enter Assignment Name: ')
     task_completed = input('Enter Details: ')
     mark = float(input('Enter Mark: '))
 
